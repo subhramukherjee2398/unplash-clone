@@ -1,0 +1,4 @@
+export const ActionTypes = {
+  RECOMMANDED_PHOTOS: "RECOMMANDED_PHOTOS",
+  SEARCH_PHOTOS: "SEARCH_PHOTOS",
+};
