@@ -1,5 +1,5 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import { Images } from "./component/Images";
 import Loader from "./component/Loader";
 import Header from "./component/Header";
@@ -45,7 +45,7 @@ function App() {
     // given accesskey inside it just to be secure.
     const accessKey =
       process.env.REACT_APP_ACCESSKEY ||
-      "6FJ-08sw_QAgTJ84pOrXO6Kx13gGJpXvYfB4SPsvgnQ";
+      "ePcTCgIAyVUZ37EkcWZZWG-_XoSrmitDdaaNXodFG7E";
 
     axios
       .get(

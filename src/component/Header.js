@@ -47,7 +47,7 @@ const Header = ({ getSearchImages }) => {
     // given accesskey inside it just to be secure.
     const accessKey =
       process.env.REACT_APP_ACCESSKEY ||
-      "mUeTdZoSLI41NtQfPL4L-6HIc35LSZlLdqzfCZVNS94";
+      "ePcTCgIAyVUZ37EkcWZZWG-_XoSrmitDdaaNXodFG7E";
 
     axios
       .get(
